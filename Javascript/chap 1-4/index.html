@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Practice (Chapters 1–4)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 0.5rem 1rem;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>JavaScript Practice (Chapters 1–4)</h1>
+    <section>
+        <h2>Chapter 1: Alerts</h2>
+        <button onclick="alert('Error! Please Enter Valid Password')">Show Error</button><br>
+        <button onclick="alert('Welcome to JS Land... \nHappy Coding!')">Line Break Alert</button><br>
+        <button onclick="alert('Welcome to JS Land...')">Simple Welcome</button>
+    </section>
+    <section>
+        <h2>Chapter 2: Variables and Alerts</h2>
+        <button onclick="alert('PIZZA\nPIZZ\nPIZ\nPI\nP')">PIZZA Alert</button>
+        <script>
+            var username;
+            var myName = "Muhammad Owais Danish";
+            var message;
+            message = "Hello World";
+            alert(message);
+            var studentName = "Ali Khan";
+            var studentAge = "20 years old";
+            var studentCourse = "Certified JavaScript Developer";
+            alert(studentName);
+            alert(studentAge);
+            alert(studentCourse);
+            var email;
+            email = "owaisdaanish@gmail.com";
+            alert("My Email Address is " + email);
+            var book;
+            book = "A smarter way to learn JavaScript";
+            alert("I am Trying to learn JavaScript " + book);
+            document.write("Yah! I can Write HTML content through JavaScript<br>");
+            alert("▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬");
+        </script>
+    </section>
+    <section>
+        <h2>Chapter 3: Variables for Numbers</h2>
+        <script>
+            var age;
+            age = "15";
+            alert("I am " + age + " Years Old");
+        </script>
+    </section>
+    <section>
+        <h2>Chapter 4: Rules for Naming Variables</h2>
+        <script>
+            var a = 10, b = 20, c = 30;
+            var name = "Ali";
+            var $price = 100;
+            var _total = 500;
+            var user1 = "John";
+            var myVariable = true;
+            document.write("<b>Variable names can only contain letters, numbers, $ and _</b><br>");
+            document.write("For example: $my_1stVariable<br><br>");
+            document.write("<b>Variables must begin with a letter, $ or _</b><br>");
+            document.write("For example: $name, _name or name<br><br>");
+            document.write("<b>Variable names are case sensitive</b><br><br>");
+            document.write("<b>Variable names should not be JS reserved keywords</b>");
+        </script>
+    </section>
+</body>
+
+</html>
